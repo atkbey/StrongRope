@@ -20,14 +20,14 @@ public class MetalMovement : MonoBehaviour
 
     public bool solBasladi;
 
-    [SerializeField] float speed;
+    public float speed;
 
-    [SerializeField] float speed_2;
+    public float speed_2;
 
 
-    [SerializeField] float solSpeed;
-    
-    [SerializeField] float sagSpeed;
+    public float solSpeed;
+
+    public float sagSpeed;
 
 
     public Rigidbody2D rigidbody2D;
